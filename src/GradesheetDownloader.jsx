@@ -16,7 +16,7 @@ async function fetchGradesheet(admnNo) {
     });
     return response.data;
   } catch (error) {
-    throw new Error(`Error fetching gradesheet for admission number ${admnNo}: ${error.message}`);
+    throw new Error(`Error fetching gradesheet for admission number ${admnNo}: ${error}`);
   }
 }
 
