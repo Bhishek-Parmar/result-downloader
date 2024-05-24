@@ -11,7 +11,8 @@ async function fetchGradesheet(admnNo) {
       responseType: 'arraybuffer',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
-      }
+      },
+      withCredentials: true
     });
     return response.data;
   } catch (error) {
