@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <GradesheetDownloader/>
+      <footer className="footer">Made with 💖 by Bhishek</footer>
     </>
   )
 }
